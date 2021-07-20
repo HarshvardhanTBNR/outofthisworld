@@ -1,0 +1,13 @@
+html,body{
+    background-color:rgb(216, 41, 41);    
+}
+
+button{
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(114, 202, 27);
+}
+
+img{
+width: 400px;
+}

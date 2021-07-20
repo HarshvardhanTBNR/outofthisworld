@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <script src=second.js></script>
+
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div style="position:sticky;top:0;z-index:99999; background-color:black;">
+
+
+        <div class="menu1" id="myNavbar1">
+            <span><a href="#home">Home</a></span>&nbsp;
+            <span><a href="#Grids">Grid view</a></span>&nbsp;
+            <span><a href="#slides">Slide view</a></span>&nbsp;
+            
+        </div>
+
+    </div>
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header"><img src="snap.jpg" id="image1" class="img-responsive"></div>
+        </section>
+        <hr>
+        <section id="Grids">
+            <h2>Grid Gallery</h2>
+            <div class="row"><img src="spiderPS.jpg" class="image2"><img src="infinity.jpg" class="image2"><img src="capfalcon.jpg" class="image2"><br><br></div>
+            <div class="row"><img src="thor.jpg" class="image2"><img src="ant.jpg" class="image2"><img src="strange.jpg" class="image2"><img src="vision.jpg" class="image2"><img src="HULK.jpg" class="image2">
+                <img src="compound.jpg" class="image2">    <br><br></div>
+        </section>
+        <hr>
+
+        <section id="slides">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <div class="item active"><img src="HULK.jpg" class="img-responsive" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p>HULK SMASH</p>
+                        </div>
+                    </div>
+
+                    
+                 <div class="item"><img src="ant.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>Ant man</p>   
+                </div>
+                </div>
+                    
+                <div class="item"><img src="spiderPS.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>Spider Man</p>   
+                </div>
+                </div>
+                    
+                <div class="item"><img src="thor.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>Lighting thor</p>   
+                </div>
+                </div>
+                    
+                <div class="item"><img src="vision.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>vision</p>   
+                </div>
+                </div>
+                    
+                <div class="item"><img src="infinity.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>Thanos</p>   
+                </div>
+                </div>
+                    
+                <div class="item"><img src="strange.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>Doctor strange</p>   
+                </div>
+                </div>
+                
+                <div class="item"><img src="snap.jpg" class="img-responsive" style="width:100%;">
+                <div class="carousel-caption">
+                  <p>SNAP</p>   
+                </div>
+                </div>
+
+                <div class="item"><img src="compound.jpg" class="img-responsive" style="width:100%;">
+                    <div class="carousel-caption">
+                      <p>COMPOUND HULK SMASH</p>   
+                    </div>
+                    </div>
+                    
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                    
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>  
+                </a>
+            </div>
+            </div>
+        </section>
+        <center>
+        <button onclick="home()">
+        HOME PAGE
+        </button>
+        </center>
+        
+</body></html>
